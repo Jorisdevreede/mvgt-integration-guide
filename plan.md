@@ -4,7 +4,7 @@
 
 ### Goals
 - Write a comprehensive markdown guide documenting how non-Gas-Town systems can participate in the Wasteland federation using only Dolt and the commons schema
-- Use Emmanuel's agent flywheel as the primary case study — a real, production-grade orchestrator that completed the MVGT flow
+- Use Emanuel's agent flywheel as the primary case study — a real, production-grade orchestrator that completed the MVGT flow
 - Document the full commons schema (7 tables) with field-level explanations
 - Provide copy-paste-ready Dolt CLI commands for every lifecycle step
 - Cover the complete participation lifecycle: install → auth → fork → register → browse → claim → work → submit → get stamped
@@ -41,7 +41,7 @@ As a developer integrating with the Wasteland, I can understand every table and 
 As a developer evaluating whether to integrate, I can read a real case study of a non-Gas-Town system that completed the full MVGT flow, so that I understand the practical effort and value.
 
 **Acceptance criteria:**
-- Case study covers a real system (Emmanuel's agent flywheel)
+- Case study covers a real system (Emanuel's agent flywheel)
 - Shows actual Dolt commands run, actual output received
 - Includes timing/effort estimates
 - Honest about rough edges encountered
@@ -67,7 +67,7 @@ The guide itself will be structured as a single markdown file with these section
    - The chain integrity model (block_hash, prev_stamp_hash for tamper evidence)
    - The HOP federation pattern (hop_uri across rigs, completions, stamps, chain_meta)
 5. MVGT Lifecycle — step-by-step walkthrough (detailed, covers edge cases)
-6. Case Study — Emmanuel's agent flywheel
+6. Case Study — Emanuel's agent flywheel
 7. Automation Patterns — scripting participation
 8. Troubleshooting — common issues and fixes
 9. FAQ
@@ -278,7 +278,7 @@ The guide must document these common failure modes:
 - Explicitly note which steps require `dolt add .` and `dolt commit` (Dolt working set vs committed state is a common confusion)
 - **Acceptance**: A developer can follow steps from scratch and complete the lifecycle. Every mutation has a verification query. Every commit shows the preceding add+diff sequence.
 
-### T5: Write guide — Case Study: Emmanuel's Agent Flywheel (P1, 30 min)
+### T5: Write guide — Case Study: Emanuel's Agent Flywheel (P1, 30 min)
 - Depends on: T3a
 - What the flywheel is (brief architecture)
 - How it maps to Wasteland concepts (rig, wanted board ↔ beads, validators ↔ DoD gates)
