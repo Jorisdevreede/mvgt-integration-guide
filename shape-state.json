@@ -1,0 +1,29 @@
+{
+  "name": "non-gastown-integration",
+  "current_phase": 5,
+  "execution_mode": "automatic",
+  "imported_plan": "",
+  "task_mode": "beads",
+  "plan_reference_path": "/data/projects/globalPlatform2/docs/plan-reference.md",
+  "use_codex": true,
+  "critique_rounds_completed": 4,
+  "critique_rounds_total": 4,
+  "qa_passes_completed": 3,
+  "qa_passes_total": 3,
+  "tasks_created": ["gp-x8o", "gp-d97", "gp-kih", "gp-ay9", "gp-kod", "gp-14c", "gp-24i", "gp-9o4", "gp-87m", "gp-347"],
+  "design_phase": "skip",
+  "design_phase_status": "skipped",
+  "design_iterations_completed": 0,
+  "design_iterations_total": 0,
+  "figma_mcp_available": false,
+  "design_figjam_url": "",
+  "design_context_file": "",
+  "timestamps": {
+    "phase_0_completed": "2026-03-04T13:05:00Z",
+    "phase_1_completed": "2026-03-04T13:10:00Z",
+    "phase_2_completed": "2026-03-04T13:30:00Z",
+    "phase_3_completed": "2026-03-04T13:40:00Z",
+    "phase_4_completed": "2026-03-04T13:42:00Z",
+    "phase_5_completed": "2026-03-04T13:45:00Z"
+  }
+}
