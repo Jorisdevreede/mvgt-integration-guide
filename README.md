@@ -20,7 +20,7 @@ Jeffrey Emanuel built the agent flywheel as a production-grade orchestration lay
 - **Structured planning** — Emanuel published his planning workflow on Twitter. From that, an open-source [plan-toolkit](https://github.com/Jorisdevreede/plan-toolkit) was derived that follows his planning process but points it at an existing codebase to plan new work in an existing project — the Jeffrey Emanuel way. The toolkit's `/shape` skill drives plans through 6 phases: prerequisites, drafting, multi-model critique (Claude + Codex reviewing each other's work), design integration, task creation with dependency graphs, and QA passes
 - **Quality gates** — The flywheel comes with extensive quality gates built in and is easily extensible for a specific project or codebase. Example gates used in one project: TDD, unit tests, integration tests, E2E tests (Playwright), contract tests, SimpleCov coverage, RuboCop linting, Brakeman security scanning, and UBS static analysis
 - **Agent Mail** — An MCP-based messaging system for inter-agent coordination with file reservation to prevent conflicts
-- **Beads** — A task tracking system with dependency wiring, priority management, and graph-scored triage (`bv --robot-triage`) for intelligent work assignment
+- **Beads integration** — Integration with Steve Yegge's [Beads](https://github.com/steveyegge/beads) git-backed task tracking system for dependency wiring, priority management, and graph-scored triage (`bv --robot-triage`)
 - **Respawn guardians** — Daemons that detect finished agents, spawn fresh ones with clean context, and let them self-assign work
 - **Definition of Done** — Every deliverable passes through quality gates before it's considered complete
 
