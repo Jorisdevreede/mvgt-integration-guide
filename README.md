@@ -10,7 +10,7 @@ MVGT = **Minimum Viable Gas Town** — the smallest set of Dolt operations neede
 
 ## How this guide was created
 
-This guide was planned using [Jeffrey Emmanuel's](https://github.com/jeffreyyemmanuel) agent flywheel — a comprehensive orchestration system for managing fleets of AI coding agents at scale. The planning process behind this document is itself a demonstration of what a non-Gas-Town rig looks like in practice.
+This guide was planned using [Jeffrey Emmanuel's](https://github.com/Dicklesworthstone) agent flywheel — a comprehensive orchestration system for managing fleets of AI coding agents at scale. The planning process behind this document is itself a demonstration of what a non-Gas-Town rig looks like in practice.
 
 ### Emmanuel's Agent Flywheel
 
