@@ -11,7 +11,7 @@ Wasteland wanted item: **w-com-004** — Write MVGT integration guide for non-Ga
 | gp-kih | Write guide — Commons Schema Table Reference | P1 | x8o | open |
 | gp-ay9 | Write guide — Schema Relationships, Patterns, and ERD | P1 | kih | open |
 | gp-kod | Write guide — MVGT Lifecycle Walkthrough | P1 | kih | open |
-| gp-14c | Write guide — Case Study: globalPlatform2 Flywheel | P1 | kih | open |
+| gp-14c | Write guide — Case Study: Emanuel's Agent Flywheel | P1 | kih | open |
 | gp-24i | Write guide — Automation Patterns | P2 | kod | open |
 | gp-9o4 | Write guide — Troubleshooting | P1 | kod | open |
 | gp-87m | Write guide — FAQ | P2 | d97, ay9, kod, 14c, 24i, 9o4 | open |
