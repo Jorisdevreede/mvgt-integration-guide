@@ -16,13 +16,13 @@ This guide was planned using [Jeffrey Emanuel's](https://github.com/jeffreyyemma
 
 Jeffrey Emanuel built the agent flywheel as a production-grade orchestration layer for AI-driven software development. The system includes:
 
-- **Multi-agent coordination** — Claude Code (Opus) and Codex agents working in parallel across tmux panes, managed by NTM (Neoterminal Manager)
-- **Structured planning** — A `/shape` skill that drives plans through 6 phases: prerequisites, drafting, multi-model critique (Claude + Codex reviewing each other's work), design integration, task creation with dependency graphs, and QA passes
-- **Quality gates** — 13 checkpoints including unit tests, integration tests, E2E tests (Playwright), RuboCop linting, Brakeman security scanning, SimpleCov coverage, and UBS static analysis
+- **Multi-agent coordination** — Claude Code (Opus), Codex, and Gemini agents working in parallel across tmux panes, managed by NTM (Named Tmux Manager)
+- **Structured planning** — Emanuel published his planning workflow on Twitter. From that, a `/shape` skill was derived that follows his planning process but points it at an existing codebase to plan new work in an existing project — the Jeffrey Emanuel way. It drives plans through 6 phases: prerequisites, drafting, multi-model critique (Claude + Codex reviewing each other's work), design integration, task creation with dependency graphs, and QA passes
+- **Quality gates** — The flywheel comes with extensive quality gates built in and is easily extensible for a specific project or codebase. Example gates used in one project: TDD, unit tests, integration tests, E2E tests (Playwright), contract tests, SimpleCov coverage, RuboCop linting, Brakeman security scanning, and UBS static analysis
 - **Agent Mail** — An MCP-based messaging system for inter-agent coordination with file reservation to prevent conflicts
 - **Beads** — A task tracking system with dependency wiring, priority management, and graph-scored triage (`bv --robot-triage`) for intelligent work assignment
 - **Respawn guardians** — Daemons that detect finished agents, spawn fresh ones with clean context, and let them self-assign work
-- **Definition of Done** — Every deliverable passes through all 13 gates before it's considered complete
+- **Definition of Done** — Every deliverable passes through quality gates before it's considered complete
 
 This guide went through 4 critique rounds with 30 findings integrated before a single word of the actual guide was written. Planning tokens are cheap — debugging tokens from bad plans are expensive. That's the flywheel philosophy.
 
